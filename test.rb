@@ -41,14 +41,21 @@
 #   puts "あなたは成人です"
 # end
 
-age = 35
-if age >= 0 && age <10
-  puts "あなたはまだまだ子供です"
-elsif
-  age >= 10 && age < 20
-  puts "だいぶ大きくなりましたね"
-elsif age == 20 || age > 20
-  puts "あなたは成人です"
+# age = 35
+# if age >= 0 && age <10
+#   puts "あなたはまだまだ子供です"
+# elsif
+#   age >= 10 && age < 20
+#   puts "だいぶ大きくなりましたね"
+# elsif age == 20 || age > 20
+#   puts "あなたは成人です"
+# else
+#   puts "エラー"
+# end
+
+age = 10
+unless age < 20
+  puts "僕は未成年ではありません"
 else
-  puts "エラー"
+  puts "僕は未成年です"
 end

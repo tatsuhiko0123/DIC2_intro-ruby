@@ -18,9 +18,3 @@ elsif number == 3
 else
   puts "1~3の数字を入力してください"
 end
-
-
-
-
-
-# puts number
