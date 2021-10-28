@@ -1,8 +1,30 @@
+# puts '以下より行う操作を選んで下さい'
+
+# number = gets.to_i
+
+# if number == 1
+#   puts "1:ブログを作成する"
+#   puts "ブログのタイトルを入力してください"
+#   blog_title = gets
+#   puts "ブログの本文を入力してください"
+#   blog_content = gets
+#   puts "入力されたタイトルと本文は以下です"
+#   puts "タイトル#{blog_title}"
+#   puts "本文#{blog_content}"
+# elsif number == 2
+#   puts "2:作成されたブログを見る"
+# elsif number == 3
+#   puts "3:ブログアプリを終了する"
+# else
+#   puts "1~3の数字を入力してください"
+# end
+
 puts '以下より行う操作を選んで下さい'
 
 number = gets.to_i
 
-if number == 1
+case number
+when 1
   puts "1:ブログを作成する"
   puts "ブログのタイトルを入力してください"
   blog_title = gets
@@ -11,9 +33,9 @@ if number == 1
   puts "入力されたタイトルと本文は以下です"
   puts "タイトル#{blog_title}"
   puts "本文#{blog_content}"
-elsif number == 2
+when 2
   puts "2:作成されたブログを見る"
-elsif number == 3
+when 3
   puts "3:ブログアプリを終了する"
 else
   puts "1~3の数字を入力してください"
