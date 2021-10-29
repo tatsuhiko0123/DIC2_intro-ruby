@@ -82,6 +82,18 @@
 #   puts number
 # end
 
-5.times do
-  puts "Hello World"
-end
+# 5.times do
+#   puts "Hello World"
+# end
+
+# names = ["noro", "nakao", "matsumoto"]
+# puts names
+
+# teachers = ["noro", "nakao", "matsumoto"]
+# puts teachers[0]
+# puts "今日の授業講師は#{teachers[0]}"
+
+teachers = ["noro", ",iyashita", "nakao"]
+p teachers
+teachers << "matsumoto"
+p teachers
