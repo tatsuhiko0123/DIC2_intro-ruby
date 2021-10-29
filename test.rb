@@ -60,14 +60,20 @@
 #   puts "僕は未成年です"
 # end
 
-age = 60
-case age
-when 10
-  puts "私はまだまだ子供です"
-when 20
-  puts "成人になりました"
-when 60
-  puts "定年です"
-else
-  puts "エラー"
+# age = 60
+# case age
+# when 10
+#   puts "私はまだまだ子供です"
+# when 20
+#   puts "成人になりました"
+# when 60
+#   puts "定年です"
+# else
+#   puts "エラー"
+# end
+
+dive = 1
+while dive < 5
+  puts "#{dive}回目"
+  dive += 1
 end
