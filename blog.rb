@@ -1,3 +1,6 @@
+blog_titles = []
+blog_contents = []
+
 while true
   puts '以下より行う操作を選んで下さい'
   puts "1:ブログを作成する"
@@ -10,8 +13,10 @@ while true
     puts "1:ブログを作成する"
     puts "ブログのタイトルを入力してください"
     blog_title = gets
+    blog_titles << blog_title
     puts "ブログの本文を入力してください"
     blog_content = gets
+    blog_contents << blog_content
     puts "入力されたタイトルと本文は以下です"
     puts "タイトル#{blog_title}"
     puts "本文#{blog_content}"
