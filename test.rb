@@ -72,8 +72,16 @@
 #   puts "エラー"
 # end
 
-dive = 1
-while dive < 5
-  puts "#{dive}回目"
-  dive += 1
+# dive = 1
+# while dive < 5
+#   puts "#{dive}回目"
+#   dive += 1
+# end
+
+# for number in 0..10 do
+#   puts number
+# end
+
+5.times do
+  puts "Hello World"
 end
