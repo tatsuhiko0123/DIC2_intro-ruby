@@ -17,6 +17,8 @@ while true
     puts "本文#{blog_content}"
   elsif number == 2
     puts "2:作成されたブログを見る"
+    puts "タイトル：#{blog_title}"
+    puts "本文#{blog_content}"
   elsif number == 3
     puts "3:ブログアプリを終了する"
     break
