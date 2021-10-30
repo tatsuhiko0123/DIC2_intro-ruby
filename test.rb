@@ -98,18 +98,21 @@
 # teachers << "matsumoto"
 # p teachers
 
-blog_titles = []
-blog_contents = []
-while true
-  puts "タイトルを入力"
-  blog_title = gets
-  puts "本文を入力"
-  blog_content = gets
-  puts "Title：#{blog_title}"
-  puts "Content：#{blog_content}"
-  blog_titles << blog_title
-  blog_contents << blog_content
-  puts "配列"
-  puts "Title：#{blog_titles}"
-  puts "Content：#{blog_contents}"
-end
+# blog_titles = []
+# blog_contents = []
+# while true
+#   puts "タイトルを入力"
+#   blog_title = gets
+#   puts "本文を入力"
+#   blog_content = gets
+#   puts "Title：#{blog_title}"
+#   puts "Content：#{blog_content}"
+#   blog_titles << blog_title
+#   blog_contents << blog_content
+#   puts "配列"
+#   puts "Title：#{blog_titles}"
+#   puts "Content：#{blog_contents}"
+# end
+
+dic_menbers = {ceo: "noro", ai_teacher: "nakao", rails_teacher: "miyashita"}
+puts dic_menbers[:ceo]
