@@ -114,5 +114,17 @@
 #   puts "Content：#{blog_contents}"
 # end
 
-dic_menbers = {ceo: "noro", ai_teacher: "nakao", rails_teacher: "miyashita"}
-puts dic_menbers[:ceo]
+# dic_members = {ceo: "noro", ai_teacher: "nakao", rails_teacher: "miyashita"}
+# dic_members[:mentor] = "matsumoto"
+# puts dic_members
+
+# dic_member = {position: {ceo: "noro", ai_teacher: "nakao", rails_teacher: "miyashita"}}
+# puts dic_member[:position][:ceo]
+
+# blog = [{title: "今日は暑いな", content: "でも頑張るぞ"},{title: "今日の仕事が終われば", content: "明日から旅行だ"},{title: "明日から", content: "プログラミングするぞ"}]
+# puts blog[0][:title]
+# puts blog[0][:content]
+
+test = [{subject: "math", points: 70},{subject: "english", points: 50},{subject: "society", points: 80}]
+test << {subject: "science", points: 100}
+puts test[3][:points]
