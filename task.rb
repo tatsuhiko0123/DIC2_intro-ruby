@@ -38,9 +38,40 @@
 # age = gets.to_i
 # introduce(name, age)
 
-def introduce(name, age)
-  puts "私の名前は#{name}です。#{age}歳です。"
+# def introduce(name, age)
+#   puts "私の名前は#{name}です。#{age}歳です。"
+# end
+# name = "toyoshima"
+# age = 38
+# introduce(name, age)
+
+# def add(n, y)
+#   n + y
+#   return n
+# end
+# puts add(2, 3)
+
+# test = "中身を変数testに入れます"
+# p test.empty?
+
+# dic = ["nakao", "shibata", "matsumoto"]
+# p dic.include?("matsumoto")
+
+# def division(n, y)
+#   if y == 0
+#     return "割れないよ"
+#   end
+#   n / y
+# end
+# puts division(2, 2)
+# puts division(2, 1)
+
+def add(n, y)
+  sum = n + y
+  if sum < 50
+    return "50より小さい"
+  else
+    return "50以上です"
+  end
 end
-name = "toyoshima"
-age = 38
-introduce(name, age)
+puts add(30, 20)
