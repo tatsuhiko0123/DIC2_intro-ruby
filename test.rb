@@ -125,6 +125,19 @@
 # puts blog[0][:title]
 # puts blog[0][:content]
 
-test = [{subject: "math", points: 70},{subject: "english", points: 50},{subject: "society", points: 80}]
-test << {subject: "science", points: 100}
-puts test[3][:points]
+# test = [{subject: "math", points: 70},{subject: "english", points: 50},{subject: "society", points: 80}]
+# test << {subject: "science", points: 100}
+# puts test[3][:points]
+
+# tenki = ["晴れ", "曇り", "雨"]
+# puts tenki[0]
+# puts tenki[1]
+# puts tenki[1]
+
+# ["晴れ", "曇り", "雨"].each do |tenki|
+#   puts tenki
+# end
+
+{ title: "こんにちは", content: "寒いですね" }.each do |key, value|
+  puts "#{key} #{value}" 
+end
