@@ -1,6 +1,8 @@
 class School
-
+  def name
+    puts "Hello!"
+  end
 end
-puts School.new.class
-school = School.new
-puts school.class
+a_school = School.new
+b_school = School.new
+a_school.name
