@@ -184,7 +184,7 @@ class School
     @introduction_statement = introduction_statement
   end
 end
-# A学校用のインスタンスを作成
+
 a_school = School.new("A学校", "東京都渋谷区..", 300, 100, "https://hoge.com", "A学校は自然豊かな...")
 puts a_school.name
 puts a_school.address
